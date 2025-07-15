@@ -1,0 +1,14 @@
+# Ignore .env file in backend
+backend/.env
+
+# Ignore node_modules in backend only (since you confirmed frontend has no node_modules)
+backend/node_modules/
+
+# Log files
+logs
+*.log
+npm-debug.log*
+
+# OS-specific hidden files
+.DS_Store
+Thumbs.db
