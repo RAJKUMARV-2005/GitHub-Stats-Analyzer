@@ -38,7 +38,7 @@ form.addEventListener("submit",async function (e) {
 
     }
     catch(e){
-        console.log("Error in Script.js Function Handling"+e);
+        console.log("Error in Script.js Function Handling");
         resultDiv.innerHTML=`<p style="color:red:"> Error </p>`;
     }
 })
